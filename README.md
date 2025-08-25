@@ -1,7 +1,7 @@
-A Comparative Analysis of Machine Learning Models for Water Potability 💧
+A Comparative Analysis of Machine Learning Models for Water Potability 
 This project analyzes water quality data to predict whether a given sample is safe for human consumption. It demonstrates a complete machine learning workflow, from data cleaning and exploration to building, tuning, and evaluating predictive models. A key finding is a comparative analysis of two powerful ensemble models: Random Forest and Gradient Boosting.
 
-📊 Data and Project Structure
+ Data and Project Structure
 The project uses the "Water Potability" dataset from Kaggle, which contains 9 water quality features and a binary target variable (Potability).
 
 notebooks/
@@ -16,7 +16,7 @@ models/
 
 water_potability_model.joblib: The final, saved machine learning model.
 
-🚀 Methodology
+ Methodology
 Data Preprocessing: Handled missing values using mean imputation and addressed class imbalance to ensure fair model training.
 
 Feature Scaling: Used StandardScaler to normalize the features, which is essential for many machine learning algorithms.
@@ -27,7 +27,7 @@ Hyperparameter Tuning: Employed GridSearchCV to optimize the Random Forest model
 
 Comparative Analysis: Compared the final, tuned Random Forest model against a Gradient Boosting model to determine which performed better on this dataset.
 
-🔍 Key Findings
+ Key Findings
 Through this analysis, we were able to significantly improve the model's ability to predict potable water. The comparative analysis provided clear results on which model is better suited for this task.
 
 Model
